@@ -1,0 +1,160 @@
+/* Global */
+body{
+  background-color: black;
+}
+
+.text-playfair-display{
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+
+.text-dancing-script{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
+
+.liens{
+text-decoration: none;
+color: white;
+}
+
+button{
+  text-shadow: 1px 1px 2px black;
+}
+
+#carouselExampleFade img{
+    height: 800px;
+}
+/* partie header */
+.header-nav{
+    background-color: black;
+    color: white;
+    height: 55px;
+}
+
+.list-inline-border{
+border-right: solid 2px white;
+border-left: solid 2px white;
+}
+
+.image-fond{
+    width: 100%;
+}
+
+.lien-nav:hover{
+border-bottom: 2px solid white;
+color: lightgray;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+/* partie présentation */
+
+h1{
+    font-size: 3vw;
+}
+
+.list-inline-logo{
+    color: white;
+    font-size: 2vw;
+}
+
+.lien-reseau:hover{
+color: lightgray;
+transition: font-size 200ms;
+font-size: 2.5vw;
+}
+ ul{
+     margin-bottom: 0%;
+ }
+/* Partie galerie photo */
+
+.galerie{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    margin-top: 20px;
+}
+
+.galerie-image-colum{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-left: 55px;
+}
+
+.galerie-portraits{
+    width: 45vw;
+    height: 240px;
+    background-image: url("../DWAIN/2945-2ret2.JPG");
+    background-size:100%;
+    margin-bottom: 20px;
+}
+
+
+.galerie-archi { 
+    width: 45vw;
+    height: 240px;
+    background-image: url("../DWAIN/0106-ret2.JPG");
+    background-size:100%;
+    
+}
+
+.galerie-nb {
+    background-image: url("../DWAIN/5200-3.JPG");
+    background-size: 100%;
+    width: 45vw;
+   
+}
+
+.galerie-portraits-text, .galerie-archi-text {
+text-align: center;
+height: 200px;
+display: table;
+width: 100%;
+}
+
+.galerie-portraits-text span, .galerie-archi-text span {
+    vertical-align: middle;
+    display: table-cell;
+    text-shadow: 1px 1px 2px black;
+}
+
+.galerie-nb-text{
+   text-align: center;
+   height: 400px;
+   display: table;
+   width: 100%;
+}
+
+.galerie-nb-text span{
+    vertical-align: middle;
+    display: table-cell;
+    text-shadow: 1px 1px 2px black;
+}
+
+.galerie p {
+    border: 2px solid white;
+    width: 15vw;
+    margin-left: 35%;
+    border-radius:5px ;
+}
+
+.galerie p:hover{
+    color: red;
+    transition: background-color 200ms;
+    background-color: white;
+}
+
+/*partie footer*/
+
+footer{
+    border-top: 2px solid white;
+    margin-top: 50px;
+    height: 150px;
+}
